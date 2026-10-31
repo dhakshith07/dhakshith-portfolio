@@ -1,0 +1,23 @@
+{
+  "name": "fullstack-developer-portfolio",
+  "version": "1.0.0",
+  "description": "Full-stack developer personal portfolio website built with React, Node.js, Express, and MongoDB",
+  "scripts": {
+    "server": "npm run dev --prefix backend",
+    "client": "npm run dev --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "test:mongo": "npm run test:mongo --prefix backend",
+    "build:frontend": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "portfolio",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "mern"
+  ],
+  "author": "Full-Stack Developer",
+  "license": "MIT"
+}
+
